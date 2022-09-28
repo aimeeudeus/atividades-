@@ -1,0 +1,76 @@
+/* RESET CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTEUDO PRINCIPAL*/
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* INFORMAÇÕES DO ALUNO */
+.field-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-container input {
+    width: 20%;
+    padding: 10px;
+    margin: 15px 0px 15px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.field-container label, legend {
+    margin-left: 10px;
+    font-weight: 200;
+    font-style: italic;
+    color: #424242;
+}
+
+.field-container input::placeholder {
+    font-size: 14px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-container input[type="submit"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #eee;
+    color: #414141;
+    transition: .5s;
+}
+
+#form-container input[type="submit"]:hover {
+    border-color: #242424;
+    color: #000;
+}
+
+/* MATH CONTAINER */

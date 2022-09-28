@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <h1>Texto Inserido</h1>
+    <p>Podemos marcar <em>um texto como inserido</em> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U</p>
+    <h1>Texto sobrescrito</h1>
+    <p>Para inserir coisas do tipo x<sup>20</sup> + 3 </p>
+    <h1>Texto subscrito</h1>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário 6</title>
+</head>
+<body>
+    <div id="container">
+        <form id="form-container">
+            <div class="content-container">
+                <fieldset class="field-container">
+                    <legend>Informações do aluno</legend>
+                    <input type="text" placeholder="Digite o seu nome">
+                    <input type="number" placeholder="N de pessoas no grupo">
+                    <input type="email" placeholder="Digite o seu email">
+                    <label>Data de nascimento</label>
+                    <input type="date" placeholder="dd/mm/aaaa">
+                    <label>Digite uma senha para acessar os dados posteriormente:</label>
+                    <input type="password" placeholder="Digite uma senha">
+                </fieldset>
+            </div>
+            <div class="content-container">
+                <fieldset class="field-container">
+                    <legend>Matemática</legend>
+                    <div class="math-content">
+                        <label for="">3 + 3 =</label>
+                        <input type="number">
+                    </div>
+                    <div class="math-content">
+                        <label for="">10 / 3 =</label>
+                        <input type="number">
+                    </div>
+                    <div class="math-content">
+                        <label for="">5 * 2 =</label>
+                        <input type="number">
+                    </div>
+                    <div class="math-content">
+                        <label for="">Esta tarefa foi difícil?</label>
+                        <input type="range" max="100">
+                    </div>
+                </fieldset>
+            </div>
+            <div class="content-container">
+                <fieldset class="field-container">
+                    <legend>Opinião quanto a utilização</legend>
+                    <img src="" alt="">
+                    <p>Na frase "Eu sou bonito" o sujeito é</p>
+                    <ul id="radio-list">
+                        <li>
+                            <input type="radio" name="sujeito" value="Brad Pitt">
+                            <label>Brad Pitt</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="sujeito" value="João da padaria">
+                            <label>João da padaria</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="sujeito" value="Você mesmo">
+                            <label>Você mesmo</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="sujeito" value="Meus pais">
+                            <label>Meus pais</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="sujeito" value="Eu">
+                            <label>Eu</label>
+                        </li>
+                    </ul>
+                    <p>Complete a frase: "Filho de peixe, peixinho ____"</p>
+                    <ul id="checkbox-list">
+                        <li>
+                            <input type="checkbox" name="fish" value="é">
+                            <label>é</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="fish" value="tem">
+                            <label>tem</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="fish" value="verde">
+                            <label>verde</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="fish" value="bonito">
+                            <label>bonito</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="fish" value="maria">
+                            <label>maria</label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="content-container">
+                <fieldset class="field-container"> 
+                    <legend>Dê uma nota para sua professora:</legend>
+                    <p>Sua professora explica bem a matéria?</p>
+                    <input type="range" max="100">
+                </fieldset>
+            </div>
+            <div class="content-container">
+                <fieldset class="field-container">
+                    <legend>Opiniões</legend>
+                    <p>Digite a sua opinião sobre a disciplina</p>
+                    <textarea></textarea>
+                </fieldset>
+            </div>
+            <input type="submit" value="Gravar resposta">
+        </form>
+    </div>
+</body>
+</html>
